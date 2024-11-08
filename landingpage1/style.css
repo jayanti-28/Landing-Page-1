@@ -1,0 +1,208 @@
+.{
+              margin:0px;
+              padding:0px;
+              font-family: century;
+}
+header{
+              background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pic1.jpg);
+              height: 60vh;
+              background-size: 60px;
+              background-position: center;
+              min-height: 50px;
+              padding: 20px 50px;
+}
+
+ul{
+              float:left;
+              list-style-type:none;
+              margin-top: 30px;
+              min-height: 1000%;
+              margin-left:3%;
+              font-size: 20px;
+}              
+
+
+
+
+ul li{
+              display: inline-block;
+}
+ul li a{
+              text-decoration: none;
+              color: #fff;
+              padding: 5px 20px;
+              border: 1px solid transparent;
+              transition: 0.5 ease;
+}
+ul li a:hover{
+              background-color: #fff;
+              color: #000;
+}
+ul li.active a{
+              background-color: #fff;
+              color: #000;
+}
+.logo img{
+              float:left;
+              width: 45px;
+              height: auto;
+              cursor: pointer;
+              margin-top: -1%;
+              margin-left: 2%;
+}
+.main{
+              max-width: 1200px;
+              margin:auto ;
+}
+.Info{
+              margin-left: 7%;
+              margin-top: 6%;
+              color: #fff;
+}
+
+
+.btn{
+              border: 1px seashell;
+              top: 60%;
+              right: 80%;
+              padding: 5px 20px;
+              color: #fff;
+              transition: 0.5 ease;
+              font-size: 18px;
+              text-decoration: none;
+}
+.btn:hover{
+              background-color: #fff;
+              color: #000;
+}
+.btn h3:hover{
+              background-color: #fff;
+              color: #000;
+}
+.page{
+              background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pic1.jpg);
+              height: 100vh;
+              background-size: 60px;
+              background-position: center;
+              min-height: 50px;
+              padding: 20px 50px;
+}
+.section{
+              width: 100%;
+              height: 700px;
+              background-size: cover;
+}
+.container{
+              width: 1170px;
+              margin: auto;
+              border: 1px solid rgb(168, 8, 8);
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+}
+.container-item{
+              flex-basis: 23%;
+              background-color: #fff;
+              margin: 10px 0px;
+              box-shadow: 0px 0px 10px 3px lightgray;
+              text-align: center;
+              padding: 20px 0px;
+}
+.form-popup{
+              position: static;
+              top: 50%;
+              left: 50%;
+              background: #fff;
+              max-width: 720px;
+              width: 100%;
+              border: 2px solid #fff;
+              transform: translate(-50% -50%);
+             
+}
+.form-popup .form-box{
+              display: flex;
+}
+.form-box .form-details{
+              max-width: 330px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+              width: 100%;
+}
+.form-box h2{
+              text-align: center;
+              margin-bottom: 30px;
+}
+.form-box .form-content{
+              width: 100%;
+              padding: 35px;
+}
+form .input-field{
+              height: 50px;
+              width: 100%;
+              margin-top: 20px;
+              position: relative;
+}
+form .input-field input{
+              width: 100%;
+              height: 100%;
+              border: 1px solid #717171;
+              font-size: 0.95rem;
+              outline: none;
+              border-radius: 3px;
+              padding: 0 15px;
+}
+.input-field input:focus{
+              border-color: aqua;
+}
+.input-field input:is(:focus, :valid) ~ label{
+              padding: 16px 15px 0;
+}
+form .input-field label{
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              left: 50%;
+              color: #717171;
+              pointer-events: none;
+              transition: 0.2s ease;
+}
+.input-field input:is(:focus, :valid) ~ label{
+              transform: translateY(-120%);
+              font-size: 0.75rem; 
+              color: aqua;      
+}
+.form-box a{
+              color: aqua;
+              text-decoration: none;
+}
+.form-box a:hover{
+             
+              text-decoration: underline;
+}
+
+form button{
+              width: 100%;
+              outline: none;
+              border: none;
+              font-size: 1rem;
+              font-weight: 600;
+              padding: 14px 0;
+              border-radius: 3px;
+              margin: 25px 0;
+              color: #fff;
+              background-color: aqua;
+              cursor: pointer;
+              transition: 0.2s ease;
+}
+form button:hover{
+              background-color: aqua;
+}
+
+@media screen and{
+              ( min-device-width:960px)
+              
+}
+
